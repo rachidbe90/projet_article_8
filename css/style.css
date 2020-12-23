@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.container{margin:auto;}
+@media (min-width: 768px) {
+	.container {
+	width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}	
+body{background-color:#F7F7FA;}
+section{margin-top:50px;}
+h1{color:#414D5A;font-weight:bold;}
+.box{background-color:white;padding-top:10px;}
+
+.linkPassword {color:blue;font-size:0.9em;}
+
+/*forgetPassword*/
+legend{font-size:0.9em;color:#414D5A;font-weight:bold;}
+
+/*index*/
+.userName{font-weight:bold;}
+aside h4{background-color:#414D5A;color:white;padding:5px;margin:-10px -15px 5px -15px;text-align: center;}
+aside ul li{list-style-type: none;margin-left:-30px;margin-bottom:5px; }
+aside ul{text-align:center;}
+aside  a{text-decoration:none;color:#252525;}
+aside  a:hover{color:#929291;text-decoration:none;padding:5px;border-radius:2px;}
+.content{padding-top:10px;}
+.color-tab{background-color:#414D5A;color:white;}
+.glyphAdjust{position:relative;top:-0.5px;}
+.date { color: #aaa; }
+
+
+#information {resize: none;}
+
+
+
+.backgroundTd {background-color:rgba(166,162,162,0.3);}
+
+textarea{resize: none;}
+
+#passwordSection {display:none;}
+
+#passwordSectionSetting {display:none;}
+
+
+
+
+.btnForm {margin-top:20px;}
+
+.msgAlert {
+	font-weight:bold;
+	text-align:center;
+}
+
+
+table a{text-decoration:none;color:black;font-weight:bold;}
+table a:hover{background-color:#414D5A;color:white;border-radius:5px;text-decoration:none;padding:3px 0px;}
